@@ -13,7 +13,7 @@ fn main() {
     let my_matches = fs::read_to_string("./src/js/my-matches/index.js").expect("Unable to read file");
     let lobby = fs::read_to_string("./src/js/lobby/index.js").expect("Unable to read file");
     let data = level_bar + &my_matches + &lobby;
-    WindowBuilder::new(app, "core", WindowUrl::App("https://www.gamersclub.com.br".into()))
+    WindowBuilder::new(app, "core", WindowUrl::App("https://www.gamersclub.com.br/lobby".into()))
       .initialization_script(&data)
       .title("Gamersclub Booster Desktop")
       .maximized(true)
