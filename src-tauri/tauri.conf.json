@@ -18,9 +18,6 @@
       "active": true,
       "category": "DeveloperTool",
       "copyright": "",
-      "deb": {
-        "depends": []
-      },
       "externalBin": [],
       "icon": [
         "icons/icon_16.png",
@@ -29,25 +26,13 @@
         "icons/icon_128.ico"
       ],
       "identifier": "gamersclub.desktop",
-      "longDescription": "",
-      "macOS": {
-        "entitlements": null,
-        "exceptionDomain": "",
-        "frameworks": [],
-        "providerShortName": null,
-        "signingIdentity": null
-      },
-      "resources": [],
-      "shortDescription": "",
+      "resources": ["./src/js/**/*"],
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
         "timestampUrl": ""
       }
-    },
-    "security": {
-      "csp": null
     },
     "updater": {
       "active": false
