@@ -4,10 +4,10 @@
 )]
 use tauri::{ WindowUrl, WindowBuilder };
 use std::fs;
-mod menu;
+// mod menu;
 
 fn main() {
-  let menu = menu::create_menu();
+  // let menu = menu::create_menu();
   tauri::Builder::default().setup(|app| {
     let level_bar = fs::read_to_string("./src/js/general/barraDeLevel.js").expect("Unable to read file");
     let my_matches = fs::read_to_string("./src/js/my-matches/index.js").expect("Unable to read file");
