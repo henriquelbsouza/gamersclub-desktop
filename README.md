@@ -15,3 +15,7 @@ Baixar o projeto e rodar `npm run tauri build` (vai criar um instalador) ou `npm
 
 
 Se alguém tiver interesse em tocar esse projeto comigo, me da um alo que eu explico o que fiz e como podemos avançar a partir daqui =)
+
+Se quiser o instalador: https://drive.google.com/file/d/1KgtPbH_WPWArGMa4X82hGO0O_WfSnEmr/view?usp=sharing
+
+Podem me chamar no [discord do gamersclub-booster](https://discord.gg/umx6bbuawh) ou abrir issue/pr etc...
