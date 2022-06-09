@@ -10,6 +10,7 @@ Infelizmente pra poder não parecer "vírus" no windows defender, precisaria pag
 Mas se alguém tiver interesse, posso disponíbilizar buildado, ou ensinar a rodar o build... O código ta "de qualquer jeito" pois fiz no final de semana como conceito, ai vi essa treta de parecer vírus e desanimei. Mas funciona.
 
 Pra buildar você vai precisar seguir as instruções de instalação do [TAURI](https://tauri.studio/v1/guides/getting-started/prerequisites)
+
 Baixar o projeto e rodar `npm run tauri build` (vai criar um instalador) ou `npm run tauri dev` (vai rodar direto do código, sem instalar no PC)
 
 
